@@ -13,7 +13,7 @@ var sling1, sling2, sling3, sling4, sling5;
 var mConstraint;
 
 function setup(){
-    canvas = createCanvas(800, 800);
+    canvas = createCanvas(windoWidth/2,windowHeight/1.5);
   
     engine = Engine.create();
    world = engine.world;
